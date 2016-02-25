@@ -1,5 +1,9 @@
 /* app css stylesheet */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -27,4 +31,16 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.b-screen {
+  background: #eaa473;
+  border: 1px solid #000;
+}
+
+audio {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
 }
